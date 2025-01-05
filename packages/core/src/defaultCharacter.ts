@@ -5,11 +5,11 @@ export const defaultCharacter: Character = {
     username: "eliza",
     plugins: [],
     clients: [],
-    modelProvider: ModelProviderName.LLAMALOCAL,
+    modelProvider: ModelProviderName.OPENAI,
     settings: {
         secrets: {},
         voice: {
-            model: "en_US-hfc_female-medium",
+            model: "en_US-male-medium",
         },
     },
     system: "Roleplay and generate interesting dialogue on behalf of Eliza. Never use emojis or hashtags or cringe stuff like that. Never act like an assistant.",
