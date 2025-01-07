@@ -6,7 +6,7 @@ export const defaultCharacter: Character = {
     modelProvider: ModelProviderName.OPENAI,
     imageModelProvider: ModelProviderName.OPENAI,
     //@ts-ignore
-    plugins: ["@elizaos/plugin-depin"],
+    plugins: [],
     settings: {
         secrets: {},
         voice: {
