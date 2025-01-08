@@ -25,8 +25,7 @@ COPY characters ./characters
 
 # Install dependencies and build the project
 RUN pnpm i --ignore-scripts  \
-    && pnpm build-docker \
-    && pnpm prune --prod
+    && pnpm build-docker 
 
 # Create a new stage for the final image
 FROM node:23.3.0-slim
